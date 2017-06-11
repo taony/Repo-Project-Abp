@@ -1,4 +1,5 @@
 ﻿using System.Data.Common;
+using System.Data.Entity;
 using Abp.Zero.EntityFramework;
 using TaonyNet.Authorization.Roles;
 using TaonyNet.MultiTenancy;
@@ -15,8 +16,7 @@ namespace TaonyNet.EntityFramework
          *   But it may cause problems when working Migrate.exe of EF. If you will apply migrations on command line, do not
          *   pass connection string name to base classes. ABP works either way.
          */
-        public TaonyNetDbContext()
-            : base("Default")
+        public TaonyNetDbContext() : base("Default")
         {
 
         }
@@ -43,5 +43,7 @@ namespace TaonyNet.EntityFramework
         {
 
         }
+
+        public IDbSet<Blog.Blog> Tasks { get; set; }
     }
 }

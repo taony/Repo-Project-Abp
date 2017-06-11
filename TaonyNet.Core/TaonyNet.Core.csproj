@@ -118,6 +118,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Blog\Blog.cs" />
+    <Compile Include="Blog\BlogManager.cs" />
+    <Compile Include="Blog\IBlogManager.cs" />
     <Compile Include="TaonyNetConsts.cs" />
     <Compile Include="TaonyNetCoreModule.cs" />
     <Compile Include="Authorization\TaonyNetAuthorizationProvider.cs" />
@@ -171,6 +174,7 @@
   <ItemGroup>
     <EmbeddedResource Include="Localization\Source\TaonyNet-vi.xml" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

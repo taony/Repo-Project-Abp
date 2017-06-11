@@ -25,6 +25,7 @@ using TaonyNet.Web.Models.Account;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
+using TaonyNet.Blog;
 
 namespace TaonyNet.Web.Controllers
 {
@@ -36,6 +37,7 @@ namespace TaonyNet.Web.Controllers
         private readonly IUnitOfWorkManager _unitOfWorkManager;
         private readonly IMultiTenancyConfig _multiTenancyConfig;
         private readonly LogInManager _logInManager;
+        private readonly BlogManager _blogManager;
 
         private IAuthenticationManager AuthenticationManager
         {
@@ -51,7 +53,8 @@ namespace TaonyNet.Web.Controllers
             RoleManager roleManager,
             IUnitOfWorkManager unitOfWorkManager,
             IMultiTenancyConfig multiTenancyConfig,
-            LogInManager logInManager)
+            LogInManager logInManager,
+            BlogManager blogManager)
         {
             _tenantManager = tenantManager;
             _userManager = userManager;
@@ -59,12 +62,16 @@ namespace TaonyNet.Web.Controllers
             _unitOfWorkManager = unitOfWorkManager;
             _multiTenancyConfig = multiTenancyConfig;
             _logInManager = logInManager;
+            _blogManager = blogManager;
         }
 
         #region Login / Logout
 
         public ActionResult Login(string returnUrl = "")
         {
+
+            _blogManager.AddBlog(new Blog.Blog() { Title = "TAONY" });
+
             if (string.IsNullOrWhiteSpace(returnUrl))
             {
                 returnUrl = Request.ApplicationPath;

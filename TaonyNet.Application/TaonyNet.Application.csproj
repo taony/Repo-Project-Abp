@@ -118,6 +118,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Blogs\BlogAppService.cs" />
+    <Compile Include="Blogs\IBlogAppService.cs" />
     <Compile Include="TaonyNetApplicationModule.cs" />
     <Compile Include="TaonyNetAppServiceBase.cs" />
     <Compile Include="MultiTenancy\Dto\CreateTenantInput.cs" />

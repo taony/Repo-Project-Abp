@@ -1342,3 +1342,371 @@ System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while upd
    at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
    at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
    at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-06-11 19:42:46,592 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-06-11 19:42:46,615 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-06-11 19:42:46,622 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TaonyNet.Web.TaonyNetWebModule, TaonyNet.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-11 19:42:46,624 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TaonyNet.TaonyNetDataModule, TaonyNet.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-11 19:42:46,624 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-11 19:42:46,624 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-11 19:42:46,624 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-11 19:42:46,625 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-11 19:42:46,625 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-11 19:42:46,625 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TaonyNet.TaonyNetCoreModule, TaonyNet.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-11 19:42:46,625 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TaonyNet.TaonyNetApplicationModule, TaonyNet.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-11 19:42:46,626 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-11 19:42:46,626 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TaonyNet.Api.TaonyNetWebApiModule, TaonyNet.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-11 19:42:46,626 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-11 19:42:46,626 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-11 19:42:46,626 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-11 19:42:46,626 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-11 19:42:46,627 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-11 19:42:46,630 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-06-11 19:42:46,781 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-11 19:42:46,781 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-11 19:42:46,781 [1    ] o.Configuration.LanguageManagementConfig - Converted TaonyNet (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-11 19:42:46,781 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-11 19:42:47,200 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: TaonyNet.EntityFramework.TaonyNetDbContext, TaonyNet.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-11 19:42:48,745 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-06-11 19:42:48,755 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-06-11 19:42:48,762 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-06-11 19:42:48,765 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: TaonyNet
+DEBUG 2017-06-11 19:42:48,767 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-06-11 19:42:48,883 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-06-11 19:42:48,956 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-06-11 19:42:48,956 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaonyNet.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-06-11 19:42:48,959 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaonyNet.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-06-11 19:42:48,959 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaonyNet.Users.Dto.CreateUserInput
+DEBUG 2017-06-11 19:42:48,960 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaonyNet.Users.Dto.UserListDto
+DEBUG 2017-06-11 19:42:48,960 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaonyNet.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-06-11 19:42:48,960 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaonyNet.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-06-11 19:42:48,960 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaonyNet.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-06-11 19:42:50,765 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaonyNet.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-06-11 19:42:50,766 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaonyNet.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-06-11 19:42:50,767 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaonyNet.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-06-11 19:42:50,768 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaonyNet.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-06-11 19:42:50,769 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaonyNet.Blogs.IBlogAppService' with service name 'app/blog'.
+ERROR 2017-06-11 19:43:30,570 [9    ] TaonyNet.Web.Controllers.HomeController  - ComponentActivator: could not instantiate TaonyNet.EntityFramework.TaonyNetDbContext
+Castle.MicroKernel.ComponentActivator.ComponentActivatorException: ComponentActivator: could not instantiate TaonyNet.EntityFramework.TaonyNetDbContext ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.InvalidOperationException: The model backing the 'TaonyNetDbContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.ForceOSpaceLoadingForKnownEntityTypes()
+   at System.Data.Entity.DbContext.System.Data.Entity.Infrastructure.IObjectContextAdapter.get_ObjectContext()
+   at Abp.EntityFramework.AbpDbContext.RegisterToChanges()
+   at Abp.Zero.EntityFramework.AbpZeroDbContext`3..ctor(String nameOrConnectionString)
+   at TaonyNet.EntityFramework.TaonyNetDbContext..ctor(String nameOrConnectionString) in G:\WorkStation\GitHub\Repo-Project-Abp\TaonyNet.EntityFramework\EntityFramework\TaonyNetDbContext.cs:line 30
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.FastCreateInstance(Type implType, Object[] arguments, ConstructorCandidate constructor)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   --- End of inner exception stack trace ---
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstance(CreationContext context, ConstructorCandidate constructor, Object[] arguments)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   at Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   at Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   at Castle.Windsor.WindsorContainer.Resolve(Type service, IDictionary arguments)
+   at Castle.Windsor.WindsorContainer.Resolve(Type service, Object argumentsAsAnonymousType)
+   at Abp.Dependency.IocManager.Resolve(Type type, Object argumentsAsAnonymousType)
+   at Abp.EntityFramework.DefaultDbContextResolver.Resolve[TDbContext](String connectionString)
+   at Abp.EntityFramework.Uow.TransactionScopeEfTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   at Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide)
+   at Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide)
+   at Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.GetDbContext(Nullable`1 multiTenancySide)
+   at Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Context_callback()
+   at Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context_1.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Context()
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   at Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Table_callback()
+   at Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table_1.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.EfRepositoryBase`2Proxy_1.get_Table()
+   at Castle.Proxies.EfRepositoryBase`2Proxy_1.GetAll_callback()
+   at Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll_1.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.EfRepositoryBase`2Proxy_1.GetAll()
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.<GetAllListAsync>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Localization.ApplicationLanguageManager.<GetLanguagesFromDatabaseAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Runtime.Caching.CacheExtensions.<>c__DisplayClass5_0`2.<<GetAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Runtime.Caching.CacheBase.<GetAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Runtime.Caching.CacheExtensions.<GetAsync>d__5`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Localization.ApplicationLanguageManager.<GetLanguageDictionary>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Localization.ApplicationLanguageManager.<GetLanguagesAsync>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass16_0`1.<Run>b__0(Task`1 t)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   at Abp.Localization.ApplicationLanguageProvider.GetLanguages()
+   at Abp.Localization.LanguageManager.GetLanguages()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDictionaries()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_Dictionaries()
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+WARN  2017-06-11 19:43:38,521 [10   ] Abp.BackgroundJobs.BackgroundJobManager  - Castle.MicroKernel.ComponentActivator.ComponentActivatorException: ComponentActivator: could not instantiate TaonyNet.EntityFramework.TaonyNetDbContext ---> System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.InvalidOperationException: The model backing the 'TaonyNetDbContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).
+   在 System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   在 System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   在 System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   在 System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   在 System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   在 System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   在 System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   在 System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   在 System.Data.Entity.Internal.InternalContext.ForceOSpaceLoadingForKnownEntityTypes()
+   在 System.Data.Entity.DbContext.System.Data.Entity.Infrastructure.IObjectContextAdapter.get_ObjectContext()
+   在 Abp.EntityFramework.AbpDbContext.RegisterToChanges()
+   在 Abp.Zero.EntityFramework.AbpZeroDbContext`3..ctor(String nameOrConnectionString)
+   在 TaonyNet.EntityFramework.TaonyNetDbContext..ctor(String nameOrConnectionString) 位置 G:\WorkStation\GitHub\Repo-Project-Abp\TaonyNet.EntityFramework\EntityFramework\TaonyNetDbContext.cs:行号 30
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeConstructorInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.FastCreateInstance(Type implType, Object[] arguments, ConstructorCandidate constructor)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstance(CreationContext context, ConstructorCandidate constructor, Object[] arguments)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   在 Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   在 Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   在 Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   在 Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   在 Castle.Windsor.WindsorContainer.Resolve(Type service, IDictionary arguments)
+   在 Castle.Windsor.WindsorContainer.Resolve(Type service, Object argumentsAsAnonymousType)
+   在 Abp.Dependency.IocManager.Resolve(Type type, Object argumentsAsAnonymousType)
+   在 Abp.EntityFramework.DefaultDbContextResolver.Resolve[TDbContext](String connectionString)
+   在 Abp.EntityFramework.Uow.TransactionScopeEfTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide)
+   在 Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide)
+   在 Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.GetDbContext(Nullable`1 multiTenancySide)
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context_3.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table_3.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll_3.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll()
+   在 Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount)
+   在 Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync_callback(Int32 maxResultCount)
+   在 Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   在 Abp.BackgroundJobs.BackgroundJobManager.<DoWork>b__13_0()
+   在 System.Threading.Tasks.Task`1.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass16_0`1.<Run>b__0(Task`1 t)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   在 Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   在 Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   在 Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+Castle.MicroKernel.ComponentActivator.ComponentActivatorException: ComponentActivator: could not instantiate TaonyNet.EntityFramework.TaonyNetDbContext ---> System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.InvalidOperationException: The model backing the 'TaonyNetDbContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).
+   在 System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   在 System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   在 System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   在 System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   在 System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   在 System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   在 System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   在 System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   在 System.Data.Entity.Internal.InternalContext.ForceOSpaceLoadingForKnownEntityTypes()
+   在 System.Data.Entity.DbContext.System.Data.Entity.Infrastructure.IObjectContextAdapter.get_ObjectContext()
+   在 Abp.EntityFramework.AbpDbContext.RegisterToChanges()
+   在 Abp.Zero.EntityFramework.AbpZeroDbContext`3..ctor(String nameOrConnectionString)
+   在 TaonyNet.EntityFramework.TaonyNetDbContext..ctor(String nameOrConnectionString) 位置 G:\WorkStation\GitHub\Repo-Project-Abp\TaonyNet.EntityFramework\EntityFramework\TaonyNetDbContext.cs:行号 30
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeConstructorInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.FastCreateInstance(Type implType, Object[] arguments, ConstructorCandidate constructor)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstance(CreationContext context, ConstructorCandidate constructor, Object[] arguments)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   在 Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   在 Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   在 Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   在 Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   在 Castle.Windsor.WindsorContainer.Resolve(Type service, IDictionary arguments)
+   在 Castle.Windsor.WindsorContainer.Resolve(Type service, Object argumentsAsAnonymousType)
+   在 Abp.Dependency.IocManager.Resolve(Type type, Object argumentsAsAnonymousType)
+   在 Abp.EntityFramework.DefaultDbContextResolver.Resolve[TDbContext](String connectionString)
+   在 Abp.EntityFramework.Uow.TransactionScopeEfTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide)
+   在 Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide)
+   在 Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.GetDbContext(Nullable`1 multiTenancySide)
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context_3.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table_3.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll_3.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll()
+   在 Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount)
+   在 Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync_callback(Int32 maxResultCount)
+   在 Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   在 Abp.BackgroundJobs.BackgroundJobManager.<DoWork>b__13_0()
+   在 System.Threading.Tasks.Task`1.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass16_0`1.<Run>b__0(Task`1 t)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   在 Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   在 Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   在 Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)

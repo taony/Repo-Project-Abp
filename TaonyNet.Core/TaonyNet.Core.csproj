@@ -118,6 +118,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Blog\Archive.cs" />
     <Compile Include="Blog\Blog.cs" />
     <Compile Include="Blog\BlogManager.cs" />
     <Compile Include="Blog\IBlogManager.cs" />

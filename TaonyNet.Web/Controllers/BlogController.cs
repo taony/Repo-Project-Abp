@@ -27,8 +27,6 @@ namespace TaonyNet.Web.Controllers
             Blog.Blog blog = new Blog.Blog();
 
             blog.Title = "taodaofsd";
-
-
             _blogRepository.Insert(blog)  ;
 
             return View();

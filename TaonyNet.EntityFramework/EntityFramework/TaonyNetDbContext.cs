@@ -2,6 +2,7 @@
 using System.Data.Entity;
 using Abp.Zero.EntityFramework;
 using TaonyNet.Authorization.Roles;
+using TaonyNet.Blog;
 using TaonyNet.MultiTenancy;
 using TaonyNet.Users;
 
@@ -45,5 +46,8 @@ namespace TaonyNet.EntityFramework
         }
 
         public IDbSet<Blog.Blog> Tasks { get; set; }
+
+        public IDbSet<Archive> Archives { get; set; }
+
     }
 }

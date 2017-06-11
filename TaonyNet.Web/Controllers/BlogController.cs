@@ -9,7 +9,7 @@ using TaonyNet.Blog;
 
 namespace TaonyNet.Web.Controllers
 {
-    [AbpMvcAuthorize]
+    //[AbpMvcAuthorize]
     public class BlogController : ControllerBase
     {
         private readonly BlogManager _blogManager;
@@ -27,7 +27,7 @@ namespace TaonyNet.Web.Controllers
             Blog.Blog blog = new Blog.Blog();
 
             blog.Title = "taodaofsd";
-            _blogRepository.Insert(blog)  ;
+            _blogRepository.Insert(blog);
 
             return View();
         }

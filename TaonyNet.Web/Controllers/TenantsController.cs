@@ -6,7 +6,7 @@ using TaonyNet.MultiTenancy;
 namespace TaonyNet.Web.Controllers
 {
     [AbpMvcAuthorize(PermissionNames.Pages_Tenants)]
-    public class TenantsController : TaonyNetControllerBase
+    public class TenantsController : ControllerBase
     {
         private readonly ITenantAppService _tenantAppService;
 

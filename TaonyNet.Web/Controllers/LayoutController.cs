@@ -9,7 +9,7 @@ using TaonyNet.Web.Models.Layout;
 
 namespace TaonyNet.Web.Controllers
 {
-    public class LayoutController : TaonyNetControllerBase
+    public class LayoutController : ControllerBase
     {
         private readonly IUserNavigationManager _userNavigationManager;
         private readonly ISessionAppService _sessionAppService;

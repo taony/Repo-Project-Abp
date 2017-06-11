@@ -2,7 +2,7 @@
 
 namespace TaonyNet.Web.Controllers
 {
-    public class AboutController : TaonyNetControllerBase
+    public class AboutController : ControllerBase
     {
         public ActionResult Index()
         {

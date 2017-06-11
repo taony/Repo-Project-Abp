@@ -466,7 +466,7 @@
     <Compile Include="Models\Account\TenantSelectionViewModel.cs" />
     <Compile Include="Models\Layout\LanguageSelectionViewModel.cs" />
     <Compile Include="Controllers\LayoutController.cs" />
-    <Compile Include="Controllers\TaonyNetControllerBase.cs" />
+    <Compile Include="Controllers\ControllerBase.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

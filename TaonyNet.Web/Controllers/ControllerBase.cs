@@ -8,9 +8,9 @@ namespace TaonyNet.Web.Controllers
     /// <summary>
     /// Derive all Controllers from this class.
     /// </summary>
-    public abstract class TaonyNetControllerBase : AbpController
+    public abstract class ControllerBase : AbpController
     {
-        protected TaonyNetControllerBase()
+        protected ControllerBase()
         {
             LocalizationSourceName = TaonyNetConsts.LocalizationSourceName;
         }

@@ -4,7 +4,7 @@ using Abp.Web.Mvc.Authorization;
 namespace TaonyNet.Web.Controllers
 {
     [AbpMvcAuthorize]
-    public class HomeController : TaonyNetControllerBase
+    public class HomeController : ControllerBase
     {
         public ActionResult Index()
         {

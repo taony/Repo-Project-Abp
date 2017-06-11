@@ -28,7 +28,7 @@ using Microsoft.Owin.Security;
 
 namespace TaonyNet.Web.Controllers
 {
-    public class AccountController : TaonyNetControllerBase
+    public class AccountController : ControllerBase
     {
         private readonly TenantManager _tenantManager;
         private readonly UserManager _userManager;

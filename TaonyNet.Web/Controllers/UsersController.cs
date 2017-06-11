@@ -7,7 +7,7 @@ using TaonyNet.Users;
 namespace TaonyNet.Web.Controllers
 {
     [AbpMvcAuthorize(PermissionNames.Pages_Users)]
-    public class UsersController : TaonyNetControllerBase
+    public class UsersController : ControllerBase
     {
         private readonly IUserAppService _userAppService;
 

@@ -1,0 +1,15 @@
+/packages
+/TaonyNet.Application/bin
+/TaonyNet.Application/obj
+/TaonyNet.Core/bin
+/TaonyNet.Core/obj
+/TaonyNet.EntityFramework/bin
+/TaonyNet.EntityFramework/obj
+/TaonyNet.Web/obj
+/TaonyNet.Web/bin
+/TaonyNet.WebApi/bin
+/TaonyNet.WebApi/obj
+/Tests/TaonyNet.Tests/bin
+/Tests/TaonyNet.Tests/obj
+/Tools/TaonyNet.Migrator/bin
+/Tools/TaonyNet.Migrator/obj
